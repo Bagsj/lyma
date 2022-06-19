@@ -12,12 +12,13 @@ body {
     color: #fff;
     line-height: 120%;
     font-size: 16px;
-    background-color: yellow;
+    background-color: #fff;
 }
 
 a {
     color: #fff;
     text-decoration: none;
+    display: inline-block;
 }
 
 .container {
@@ -88,3 +89,102 @@ a {
     background-color: transparent;
 }
 
+.top {
+    padding-top: 64px;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.top__title {
+    font-family: "Roboto";
+    font-size: 57px;
+    line-height: 140%;
+    letter-spacing: 0.81px;
+    margin-bottom: 33px;
+}
+
+.top__subtitle {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.44px;
+}
+
+.top__links {
+    margin-top: 60px;
+}
+
+.links__btn {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 2px;
+    text-align: center;
+    border: 1px solid #fff;
+    width: 215px;
+    padding: 8px 10px;
+    max-width: 100%;
+    transition: all 0.3s;
+}
+
+.links__btn + .links__btn {
+    margin-left: 20px;
+}
+
+.links__btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.discover {
+    padding: 16px 0px;
+}
+
+.discover__inner {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.discover__right,
+.discover__left {
+    width: 50%;
+    text-align: center;
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.discover__title {
+    font-family: "Roboto";
+    font-size: 34px;
+    line-height: 140%;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+    margin-top: 280px;
+}
+
+.discover__subtitle {
+    margin-top: 9px;
+    font-size: 15px;
+    line-height: 170%;
+}
+
+.discover__links {
+    margin: 25px auto 0;
+    max-width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discover__links-btn {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-align: center;
+}
