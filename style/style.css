@@ -219,3 +219,30 @@ img {
     margin-top: 39px;
     line-height: 160%;
 }
+
+.laser {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.laser__inner {
+    max-width: 558px;
+    margin: 289px auto;
+}
+
+.laser__title {
+    font-family: "Roboto";
+    font-size: 38px;
+    line-height: 120%;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+.laser__links {
+    margin-top: 28px;
+}
