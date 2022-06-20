@@ -232,7 +232,8 @@ img {
 
 .laser__inner {
     max-width: 558px;
-    margin: 289px auto;
+    margin: 0 auto;
+    padding: 289px 0;
 }
 
 .laser__title {
