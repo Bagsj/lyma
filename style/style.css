@@ -233,7 +233,7 @@ img {
 .laser__inner {
     max-width: 558px;
     margin: 0 auto;
-    padding: 289px 0;
+    padding: 289px 10px;
 }
 
 .laser__title {
@@ -246,4 +246,46 @@ img {
 
 .laser__links {
     margin-top: 28px;
+}
+
+.founder {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 16px;
+}
+
+.founder__inner {
+    padding: 136px 10px;
+    display: flex;
+}
+
+.founder__content {
+    width: 50%;
+    margin-left: auto;
+    padding: 0 20px;
+}
+
+.founder__title {
+    font-family: "Roboto";
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.5px;
+    color: #1b1b1b;
+}
+
+.founder__subtitle {
+    max-width: 400px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    margin-top: 33px;
+}
+
+.founder__link {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    color: #1b1b1b;
+    margin-top: 12px;
 }
