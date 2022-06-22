@@ -233,7 +233,7 @@ img {
 .laser__inner {
     max-width: 558px;
     margin: 0 auto;
-    padding: 289px 10px;
+    padding: 289px 0px;
 }
 
 .laser__title {
@@ -288,4 +288,127 @@ img {
     letter-spacing: 2px;
     color: #1b1b1b;
     margin-top: 12px;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.footer__inner {
+    padding: 96px 215px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer__menu {
+    display: flex;
+}
+
+.footer__menu-item {
+    padding-right: 58px;
+    text-align: left;
+}
+
+.footer__menu-heading {
+    padding-bottom: 40px;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+.footer__menu-li {
+    font-size: 12px;
+    line-height: 120%;
+    margin-bottom: 8px;
+}
+
+.footer__menu-link {
+    color: #7e7e7e;
+}
+
+.footer__menu-btn {
+    font-size: 12px;
+    line-height: 120%;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer__contacts-heading {
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 1.71px;
+    margin-bottom: 42px;
+}
+
+.footer__form-label {
+    font-size: 12px;
+    line-height: 120%;
+    color: #7e7e7e;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.footer__form {
+    display: flex;
+}
+
+.footer__form-input {
+    font-size: 12px;
+    line-height: 120%;
+    color: #7e7e7e;
+    background-color: #000;
+    border: 1px solid #fff;
+    width: 230px;
+    max-width: 100%;
+    padding: 12px;
+}
+
+.footer__form-input::placeholder {
+    font-size: 12px;
+    line-height: 120%;
+    color: #7e7e7e;
+}
+
+.footer__form-btn {
+    font-size: 12px;
+    line-height: 120%;
+    color: #7e7e7e;
+    background-color: #fff;
+    border: none;
+    width: 135px;
+    max-width: 100%;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.footer__contacts-social {
+    margin-top: 50px;
+}
+
+.footer__social {
+    display: flex;
+    margin: 0 -12px;
+}
+
+.footer__social-item {
+    margin: 0 12px;
+}
+
+.footer__social-link {
+    cursor: pointer;
+}
+
+.footer__contacts-copy {
+    font-size: 10px;
+    line-height: 120%;
+    color: #7e7e7e;
+    margin-top: 17px;
 }
